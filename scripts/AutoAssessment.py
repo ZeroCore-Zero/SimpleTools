@@ -1,3 +1,11 @@
+"""
+北邮教务系统教师评分自动化脚本 Python版
+
+使用方法：
+1. 安装依赖：`uv sync`
+2. 在下方填入教务账密
+3. 运行
+"""
 from base64 import b64encode
 from bs4 import BeautifulSoup
 from itertools import product
